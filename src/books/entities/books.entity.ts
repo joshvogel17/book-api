@@ -1,4 +1,4 @@
-import { Author } from 'src/authors/entities/author.entity';
+import { Author } from '../../authors/entities/author.entity';
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 export enum Language {

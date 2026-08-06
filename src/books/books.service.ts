@@ -6,7 +6,7 @@ import { CreateBookDto } from './dtos/create-book.dto';
 import { GetBookFilterDto } from './dtos/get-book-filter.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import PostgreSQLErrorCode from 'src/postgresql-error-codes';
+import PostgreSQLErrorCode from '../postgresql-error-codes';
 
 @Injectable()
 export class BooksService {

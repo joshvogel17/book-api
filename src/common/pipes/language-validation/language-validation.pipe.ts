@@ -4,8 +4,8 @@ import {
   Injectable,
   PipeTransform,
 } from '@nestjs/common';
-import { CreateBookDto } from 'src/books/dtos/create-book.dto';
-import { Language } from 'src/books/entities/books.entity';
+import { CreateBookDto } from '../../../books/dtos/create-book.dto';
+import { Language } from '../../../books/entities/books.entity';
 
 @Injectable()
 export class LanguageValidationPipe implements PipeTransform {
